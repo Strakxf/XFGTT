@@ -12,9 +12,9 @@ bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
 v
     if (message.content == "InfoRollback") {
-        message.channel.sendMessage("```79% To GO!```");
-        message.channel.sendMessage("```Keep Support Strak!```");
-        message.channel.sendMessage("```Semua system/command/functional bot sedak di perbaiki.```");
+        message.channel.sendMessage("79% To GO!");
+        message.channel.sendMessage("Keep Support Strak!");
+        message.channel.sendMessage("Semua system/command/functional bot sedak di perbaiki.");
     }
 });
 
